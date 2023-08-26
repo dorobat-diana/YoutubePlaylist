@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AdminWindow</class>
+ <widget class="QMainWindow" name="AdminWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextEdit" name="link_2">
+    <property name="geometry">
+     <rect>
+      <x>54</x>
+      <y>320</y>
+      <width>350</width>
+      <height>89</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="new_likes_2">
+    <property name="geometry">
+     <rect>
+      <x>666</x>
+      <y>420</y>
+      <width>129</width>
+      <height>90</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="newlinklabel_2">
+    <property name="geometry">
+     <rect>
+      <x>413</x>
+      <y>320</y>
+      <width>60</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>New Link</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="new_title_2">
+    <property name="geometry">
+     <rect>
+      <x>483</x>
+      <y>121</y>
+      <width>312</width>
+      <height>89</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_6">
+    <property name="geometry">
+     <rect>
+      <x>281</x>
+      <y>520</y>
+      <width>83</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Save to file</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_7">
+    <property name="geometry">
+     <rect>
+      <x>371</x>
+      <y>520</y>
+      <width>80</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Display</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="minuteslabel_2">
+    <property name="geometry">
+     <rect>
+      <x>21</x>
+      <y>420</y>
+      <width>52</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Minutes</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="minutes_2">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>420</y>
+      <width>128</width>
+      <height>90</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="newtitlelabel_2">
+    <property name="geometry">
+     <rect>
+      <x>413</x>
+      <y>121</y>
+      <width>63</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>New Title</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="linklabel_2">
+    <property name="geometry">
+     <rect>
+      <x>21</x>
+      <y>320</y>
+      <width>26</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Link</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="newlikeslabel_2">
+    <property name="geometry">
+     <rect>
+      <x>593</x>
+      <y>420</y>
+      <width>66</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>New Likes</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="presenter_2">
+    <property name="geometry">
+     <rect>
+      <x>88</x>
+      <y>220</y>
+      <width>708</width>
+      <height>90</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_8">
+    <property name="geometry">
+     <rect>
+      <x>107</x>
+      <y>520</y>
+      <width>80</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Remove</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_9">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>520</y>
+      <width>80</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Add</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="new_link_2">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>320</y>
+      <width>315</width>
+      <height>89</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="likes_2">
+    <property name="geometry">
+     <rect>
+      <x>456</x>
+      <y>420</y>
+      <width>128</width>
+      <height>90</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_10">
+    <property name="geometry">
+     <rect>
+      <x>194</x>
+      <y>520</y>
+      <width>80</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Update</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="adminlist">
+    <property name="geometry">
+     <rect>
+      <x>19</x>
+      <y>22</y>
+      <width>778</width>
+      <height>90</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="title_2">
+    <property name="geometry">
+     <rect>
+      <x>57</x>
+      <y>121</y>
+      <width>347</width>
+      <height>89</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="secondslabel_2">
+    <property name="geometry">
+     <rect>
+      <x>217</x>
+      <y>420</y>
+      <width>55</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Seconds</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="title_label_2">
+    <property name="geometry">
+     <rect>
+      <x>21</x>
+      <y>121</y>
+      <width>29</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Title</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="likeslabel_2">
+    <property name="geometry">
+     <rect>
+      <x>417</x>
+      <y>420</y>
+      <width>32</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Likes</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="seconds_2">
+    <property name="geometry">
+     <rect>
+      <x>279</x>
+      <y>420</y>
+      <width>129</width>
+      <height>90</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="presenterlabel_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>220</y>
+      <width>61</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Presenter</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>260</y>
+      <width>61</width>
+      <height>29</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Back</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuadmin_window">
+    <property name="title">
+     <string>admin window</string>
+    </property>
+   </widget>
+   <addaction name="menuadmin_window"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

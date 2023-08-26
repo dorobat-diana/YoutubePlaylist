@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tutorials</title>
+</head>
+<body>
+<table border="1">
+  <tr>
+      <td>Title</td>
+      <td>Presenter</td>
+      <td>Duration_Minutes</td>
+      <td>Duration_Seconds</td>
+      <td>Likes</td>
+      <td>Link</td>
+  </tr>
+  <tr>
+        <td>C++ for Beginners</td>
+     <td>John Doe</td>
+     <td>60</td>
+     <td>0</td>
+     <td>101</td>
+     <td>href="www.youtube.com/c++forbeginners">Link</a></td>
+  </tr>
+  <tr>
+        <td>Advanced C++</td>
+     <td>Jane Smith</td>
+     <td>120</td>
+     <td>30</td>
+     <td>200</td>
+     <td>href="www.youtube.com/advancedc++">Link</a></td>
+  </tr>
+  <tr>
+        <td>Python Basics</td>
+     <td>Bob Johnson</td>
+     <td>45</td>
+     <td>0</td>
+     <td>50</td>
+     <td>href="www.youtube.com/pythonbasics">Link</a></td>
+  </tr>
+  <tr>
+        <td>Machine Learning</td>
+     <td>Alice Lee</td>
+     <td>90</td>
+     <td>0</td>
+     <td>150</td>
+     <td>href="www.youtube.com/machinelearning">Link</a></td>
+  </tr>
+  <tr>
+        <td>Web Development</td>
+     <td>David Brown</td>
+     <td>60</td>
+     <td>45</td>
+     <td>75</td>
+     <td>href="www.youtube.com/webdev">Link</a></td>
+  </tr>
+  <tr>
+        <td>Data Structures</td>
+     <td>Emily Chen</td>
+     <td>75</td>
+     <td>0</td>
+     <td>90</td>
+     <td>href="www.youtube.com/datastructures">Link</a></td>
+  </tr>
+  <tr>
+        <td>Algorithms</td>
+     <td>Tom Wilson</td>
+     <td>90</td>
+     <td>0</td>
+     <td>120</td>
+     <td>href="www.youtube.com/algorithms">Link</a></td>
+  </tr>
+  <tr>
+        <td>Object-Oriented Programming</td>
+     <td>Sara Jones</td>
+     <td>60</td>
+     <td>0</td>
+     <td>80</td>
+     <td>href="www.youtube.com/oop">Link</a></td>
+  </tr>
+  <tr>
+        <td>Java Basics</td>
+     <td>Mike Smith</td>
+     <td>45</td>
+     <td>30</td>
+     <td>60</td>
+     <td>href="www.youtube.com/javabasics">Link</a></td>
+  </tr>
+  <tr>
+        <td>Software Engineering</td>
+     <td>Lucas Lee</td>
+     <td>120</td>
+     <td>0</td>
+     <td>200</td>
+     <td>href="www.youtube.com/softwareengineering">Link</a></td>
+  </tr>
+  <tr>
+        <td>C++ for Advance</td>
+     <td>John Doe</td>
+     <td>160</td>
+     <td>0</td>
+     <td>161</td>
+     <td>href="www.youtube.com/c++foradvanced">Link</a></td>
+  </tr>
+  <tr>
+        <td>C++ for Beginners</td>
+     <td>John MIR</td>
+     <td>64</td>
+     <td>0</td>
+     <td>101</td>
+     <td>href="www.youtube.com/c++forbeginners">Link</a></td>
+  </tr>
+</table>
+</body>
+</html>

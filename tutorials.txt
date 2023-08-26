@@ -1,0 +1,11 @@
+C++ for Beginners,John Doe,60,0,101,www.youtube.com/c++forbeginners
+Advanced C++,Jane Smith,120,30,200,www.youtube.com/advancedc++
+Python Basics,Bob Johnson,45,0,50,www.youtube.com/pythonbasics
+Machine Learning,Alice Lee,90,0,150,www.youtube.com/machinelearning
+Web Development,David Brown,60,45,75,www.youtube.com/webdev
+Data Structures,Emily Chen,75,0,90,www.youtube.com/datastructures
+Algorithms,Tom Wilson,90,0,120,www.youtube.com/algorithms
+Object-Oriented Programming,Sara Jones,60,0,80,www.youtube.com/oop
+Java Basics,Mike Smith,45,30,60,www.youtube.com/javabasics
+Software Engineering,Lucas Lee,120,0,200,www.youtube.com/softwareengineering
+C++ for Advance,John Doe,160,0,161,www.youtube.com/c++foradvanced
