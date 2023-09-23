@@ -1,20 +1,47 @@
-# Assignment 08-09
 
-## Requirements
-- Create a graphical user interface using the Qt framework for the problem you have been working on (A04-05, A06, A07).
+#Project Title: Interactive Tutorial Management System
 
-## Week 11
-- Implement the interface design, without using the Qt Designer. Use layouts to design your interface.
-- The list or table displaying the repository entities in administrator mode should be populated using your input file. 
+#Project Description:
 
-## Week 13 
--	All functionalities must be available through the GUI. You may use Qt Designer, if you want to change the initial design of your GUI.
--	The functionality of the application must be the same (including the one-by-one iteration of objects for the user mode).
+The Interactive Tutorial Management System is a software application designed to streamline the management and organization of educational tutorial content. Its intuitive graphical user interface (GUI) provides users with a seamless experience for creating, editing, and accessing tutorials in various formats, such as CSV and HTML. Below is an overview of the project's key features and functionality:
 
-## Bonus possibility (0.2p, deadline week 13)
-Create a graphical representation of the data in your application. You have an example below: a bar chart representing the number of songs for each artist. Your representations can be a bar chart, a pie chart or another type of chart. You can even use circles or rectangles or any other geometric shapes to represent the data.
+Main Menu:
 
-Hint: You can use QPainter (https://doc.qt.io/qt-6/qpainter.html), QGraphicsScene (https://doc.qt.io/qt-6/qgraphicsscene.html) or a special widget designed for plotting and data visualisation – QCustomPlot (http://www.qcustomplot.com/).
+The application opens with a user-friendly main menu featuring two primary options: "CSV" and "HTML." Users can choose between these two file formats for managing tutorials.
+Admin Mode:
 
-<img width="704" alt="Screenshot 2021-04-17 at 20 24 04" src="https://user-images.githubusercontent.com/25611695/115121335-df0f7e00-9fba-11eb-8839-40cd55da1d69.png">
+Upon selecting either "CSV" or "HTML," users can enter "Admin Mode," which grants access to advanced tutorial management capabilities.
+Tutorial List Display:
 
+In Admin Mode, a list of tutorials is displayed in a dedicated section of the GUI. This list shows essential details about each tutorial, including title, presenter, duration, likes, and a link.
+Tutorial CRUD Operations:
+
+Admins can perform CRUD (Create, Read, Update, Delete) operations on tutorials:
+Add: Admins can add new tutorials by filling in details like title, presenter, duration, likes, and a link. Clicking "Add" updates the tutorial list.
+Update: Admins can select a tutorial from the list and modify its attributes, such as title, likes, and link, by entering new values and clicking "Update."
+Delete: Admins can remove a tutorial from the list by selecting it and clicking "Delete."
+Tutorial List Management:
+
+Admins can view, edit, and delete tutorials from the list. The list is automatically updated after each operation.
+Save and Display:
+
+Admins can save the tutorial list to a file (CSV or HTML) and also open it within the application for quick reference.
+User Mode:
+
+Users can switch to "User Mode" to explore tutorials. User Mode offers functionality for searching tutorials by presenter and adding tutorials to a playlist.
+Search by Presenter:
+
+Users can enter a presenter's name and click "Search" to filter tutorials by that presenter. The results are displayed in a separate list.
+Playlist Management:
+
+Users can create and manage playlists by adding tutorials to them. They can also remove tutorials from their playlist.
+Navigation and Interaction:
+
+Users can navigate between different sections of the application, such as switching between Admin and User Modes, searching for tutorials, and managing playlists.
+Like Tutorials:
+
+Users can express their appreciation for tutorials by clicking the "Like" button, which increases the tutorial's likes count.
+Responsive Design:
+
+The GUI is designed to be responsive and user-friendly, ensuring a seamless experience on different screen sizes.
+Overall, the Interactive Tutorial Management System provides an efficient and user-friendly platform for both administrators and users to manage, explore, and engage with educational tutorial content in a structured and organized manner. Whether you are a content creator, educator, or learner, this application simplifies the process of tutorial management and access.
